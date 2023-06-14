@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="assets/js/login-basic.js"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <main-css></main-css>
+</head>
+
+<body>
+    <main-header></main-header>
+    <!-- Login Page -->
+    <div class="login-page padding-120 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h4 >login your account</h4>
+                    <div class="login-form margin-top-30">
+                        <form id="login-form">
+                            <input type="email" placeholder="Email Address" name="email" id="email">
+                            <input type="password" placeholder="Enter Password" name="password" id="pass">
+                            <button type="submit" class="template-btn" id="submit">Login</button>
+                            <div class="message"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main-footer></main-footer>
+</body> 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="assets/js/login.js"></script>
+
+</html>
